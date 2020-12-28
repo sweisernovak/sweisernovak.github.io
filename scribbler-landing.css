@@ -38,6 +38,19 @@ nav {
   box-shadow: 0px 12px 36.8px 9.2px rgba(0, 0, 0, 0.1);
 }
 
+.hero__image {
+  width: 60%;
+  margin: -11rem auto 3rem auto;
+  place-content: center;
+  color: gray;
+  padding: 0 1rem;
+  border-radius: 4px;
+  background-color: white;
+  min-height: 285px;
+
+}
+
+
 .hero__terminal pre {
   white-space: pre-line;
   padding-top: 1rem;
