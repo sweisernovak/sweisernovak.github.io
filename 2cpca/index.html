@@ -154,7 +154,7 @@ var stl_viewer=new StlViewer(
 </td></tr></table>
 
 <!-- ---------- -->
-
+<style>p {text-align:left;}</style>
 <div class="feature">        
   <div class="feature__item">
     <h3 class="section__title">Low mag</h3>
@@ -175,12 +175,15 @@ var stl_viewer=new StlViewer(
   <div class="feature__item">
     <h3>Data</h3>
     <p>HEK cells processed for S3EM (Os, UA, LA). 96 serial sections cut with Diatome knives on a Leica ultramicrotome, collected on a silicon chip. Imaged on a Zeiss SEM with 8-8-70 nm (x-y-z) voxels. </p>
-    <p>Ground truth segmented in VAST Lite. Deep learning and inference conducted using Gunpowder +. Mesh generation: ___. Mesh cleanup and export using Blender+BlendGAMer. </p> 
-    <p>Geometry paramaterization in Python using numpy-stl library. PCA computation using Python sklearn library. Interactive PCA visulization generated using Bokeh in Python to produce an browser-ready embedding. Added STL-Viewer library to HTML embedding, linking using the bokeh Div element class, targeted using JQuery, to collect selected object name and load it as input into STL-Viewer scene. </p>
+    <p>Ground truth segmented in VAST Lite. Deep learning and inference conducted using Gunpowder +. Mesh generation: ___. Mesh cleanup and export using Blender+BlendGAMer. Geometry paramaterization in Python using numpy-stl library. PCA computation using Python sklearn library.  </p>
   </div>
   <div class="feature__item">
     <h3>Interact</h3>
+    <p>Interactive PCA visulization generated using Bokeh in Python to produce an browser-ready embedding. Added STL-Viewer library to HTML embedding, linking using the bokeh Div element class, targeted using JQuery, to collect selected object name and load it as input into STL-Viewer scene.
+    </p>
+    <p>
     Select points on the PCA and click the Update Model button to see the corresponding mitochondria. PCs are generated from curvature, surface area, and volume parameters. Click Load Big Model button to load all mitos into a single scene (may take some time). 
+    </p>
   </div>
 </div>
 
