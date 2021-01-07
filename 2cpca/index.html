@@ -115,25 +115,11 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-<script>
-  $(document).ready(function() {
-    $("#btnSubmit").click(function(){
-      var myobj=$('.bk-clearfix').clone().text();
-      let fName = '../models/'+myobj+'.stl';
-      //$('.mName').html(fName)
-      stl_viewer.remove_model(0)
-      stl_viewer.add_model({id:0, display: "wireframe", filename:''+fName+''});
-    }); 
-});
-
-</script>
+<script src="js/stl_viewer.min.js"></script>  
 
 <button id = "btnSubmit" class="updateModel">Update Model</button>
 
-<div id="stl_cont" style="max-width:700px;min-width:300px;height:500px;margin:0 auto;"></div>
-    
-<script src="js/stl_viewer.min.js"></script>        
+<div id="stl_cont" style="min-width:300px;width:100%;height:500px;margin:0 auto;"></div>
 
 <script>
 var stl_viewer=new StlViewer(
@@ -149,6 +135,20 @@ var stl_viewer=new StlViewer(
             filename:"../models/mesh_34286.001_gamer_improved.467.stl"} 
           ] }
     );
+</script>
+
+<script>
+  $(document).ready(function() {
+    $("#btnSubmit").click(function(){
+      var myobj=$('.bk-clearfix').clone().text();
+      
+      let fName = '../models/'+myobj+'.stl';
+
+      stl_viewer.remove_model(0)
+      stl_viewer.add_model({id:0, display:"wireframe", filename:''+fName+''});
+    }); 
+});
+
 </script>
 
 </td></tr></table>
@@ -186,37 +186,74 @@ var stl_viewer=new StlViewer(
 
 
 <div>
-  <button id = "btnSubmit2" class="updateModel2">Load Big Model</button>
-<div id="stl_cont2" style="width:100%;min-width:300px;height:800px;margin:0 auto;"></div>
-    
-<script src="js/stl_viewer.min.js"></script>        
+
+<!-- -->
+
+<style>
+  
+  progress {display:block;margin:0 auto 10px auto; width:60%;}
+  
+</style>
 
 <script>
-  $(document).ready(function() {
-    $("#btnSubmit2").click(function(){
-      var myobj2='all-mitos'
-      let fName2 = '../models/'+myobj2+'.stl';
-      stl_viewer2.remove_model(0);
-      stl_viewer2.add_model({id:0, filename:''+fName2+''});
-    }); 
-});
-
+  function load_prog(load_status, load_session)
+  {
+      var loaded=0;
+      var total=0;
+      
+      //go over all models that are/were loaded
+      Object.keys(load_status).forEach(function(model_id)
+      {
+          if (load_status[model_id].load_session==load_session) //need to make sure we're on the last loading session (not counting previous loaded models)
+          {
+              loaded+=load_status[model_id].loaded;
+              total+=load_status[model_id].total;
+              
+              //set the relevant model's progress bar
+              document.getElementById("pb"+model_id).value=load_status[model_id].loaded/load_status[model_id].total;
+          }
+      });
+      
+      //set total progress bar
+      document.getElementById("pbtotal").value=loaded/total;
+  }    
 </script>
+
+<!-- -->  
+
+<button id="btnSubmit2" class="updateModel2">Load Big Model</button>
+<progress id="pb0" value="0" max="1"></progress>
+
+<div id="stl_cont2" style="width:100%;min-width:300px;height:800px;margin:0 auto;"></div>
+   
 
 <script>
 var stl_viewer2=new StlViewer(
-  document.getElementById("stl_cont2"), 
-   { 
-      auto_rotate:false,
-      bgcolor:"#20FAAC",
-      allow_drag_and_drop:true,
-      models: 
-        [ {
-            id:0, 
-            filename:""} 
-          ] }
-    );
+    document.getElementById("stl_cont2"), 
+     { 
+        auto_rotate:false,
+        loading_progress_callback:load_prog,
+        bgcolor:"#20FAAC",
+        allow_drag_and_drop:true,
+        models: 
+          [ {
+              id:0, 
+              filename:""} 
+            ] }
+      );
+  
+</script>
 
+<script>
+$(document).ready(function() {
+      $("#btnSubmit2").click(function(){
+        var myobj2='all-mitos';
+        let fName2 = '../models/'+myobj2+'.stl';
+        stl_viewer2.remove_model(0)
+        stl_viewer2.add_model({id:0, filename:''+fName2+''});
+      }); 
+  });
+  
 </script>
 
 </div>

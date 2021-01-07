@@ -116,19 +116,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<script>
-  $(document).ready(function() {
-    $("#btnSubmit").click(function(){
-      var myobj=$('.bk-clearfix').clone().text();
-      let fName = '../models/'+myobj+'.stl';
-      //$('.mName').html(fName)
-      stl_viewer.remove_model(0)
-      stl_viewer.add_model({id:0, display: "wireframe", filename:''+fName+''});
-    }); 
-});
-
-</script>
-
 <button id = "btnSubmit" class="updateModel">Update Model</button>
 
 <div id="stl_cont" style="max-width:700px;min-width:300px;height:500px;margin:0 auto;"></div>
@@ -149,6 +136,19 @@ var stl_viewer=new StlViewer(
             filename:"../models/mesh_34286.001_gamer_improved.467.stl"} 
           ] }
     );
+</script>
+
+<script>
+  $(document).ready(function() {
+    $("#btnSubmit").click(function(){
+      var myobj=$('.bk-clearfix').clone().text();
+      let fName = '../models/'+myobj+'.stl';
+      //$('.mName').html(fName)
+      stl_viewer.remove_model(0)
+      stl_viewer.add_model({id:0, display: "wireframe", filename:''+fName+''});
+    }); 
+});
+
 </script>
 
 </td></tr></table>
@@ -186,22 +186,9 @@ var stl_viewer=new StlViewer(
 
 
 <div>
-  <button id = "btnSubmit2" class="updateModel2">Load Big Model</button>
+  <button id="btnSubmit2" class="updateModel2">Load Big Model</button>
 <div id="stl_cont2" style="width:100%;min-width:300px;height:800px;margin:0 auto;"></div>
-    
-<script src="js/stl_viewer.min.js"></script>        
-
-<script>
-  $(document).ready(function() {
-    $("#btnSubmit2").click(function(){
-      var myobj2='all-mitos'
-      let fName2 = '../models/'+myobj2+'.stl';
-      stl_viewer2.remove_model(0);
-      stl_viewer2.add_model({id:0, filename:''+fName2+''});
-    }); 
-});
-
-</script>
+ 
 
 <script>
 var stl_viewer2=new StlViewer(
@@ -216,6 +203,18 @@ var stl_viewer2=new StlViewer(
             filename:""} 
           ] }
     );
+
+</script>
+
+<script>
+  $(document).ready(function() {
+    $("#btnSubmit2").click(function(){
+      var myobj2='all-mitos'
+      let fName2 = '../models/'+myobj2+'.stl';
+      stl_viewer2.remove_model(0);
+      stl_viewer2.add_model({id:0, filename:''+fName2+''});
+    }); 
+});
 
 </script>
 
