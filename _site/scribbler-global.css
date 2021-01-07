@@ -299,6 +299,9 @@ table td:first-child {
   width: 70%;
 }
 
+.bk-plot-wrapper table {
+  margin: 0 auto;
+}
 .footer {
   text-align: center;
   background-color: var(--primary-color);
