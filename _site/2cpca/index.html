@@ -54,7 +54,7 @@
     
 <div class="wrapper center">
 
-            <table style="border:5 solid black;">
+            <table>
               <tr>
                 <td>
         
@@ -123,13 +123,13 @@
       let fName = '../models/'+myobj+'.stl';
       //$('.mName').html(fName)
       stl_viewer.remove_model(0)
-      stl_viewer.add_model({id:0, filename:''+fName+''});
+      stl_viewer.add_model({id:0, display: "wireframe", filename:''+fName+''});
     }); 
 });
 
 </script>
 
-<button id = "btnSubmit" class="updateModel">Update model</button>
+<button id = "btnSubmit" class="updateModel">Update Model</button>
 
 <div id="stl_cont" style="max-width:700px;min-width:300px;height:500px;margin:0 auto;"></div>
     
@@ -145,20 +145,63 @@ var stl_viewer=new StlViewer(
       models: 
         [ {
             id:0, 
+            display: "wireframe",
             filename:"../models/mesh_34286.001_gamer_improved.467.stl"} 
           ] }
     );
 </script>
 
-<div class="mName"></div>
 </td></tr></table>
+
+<!-- ---------- -->
+
+<div class="feature">        
+  <div class="feature__item">
+    <h3 class="section__title">Low mag</h3>
+    <img style="max-width: 100%; height: 400px;" src="images/lomag.JPG" />
+  </div>
+  <div class="feature__item">
+    <h3 class="section__title">Mid mag</h3>
+    <img style="max-width: 100%; height: 400px;" src="images/midmag.JPG" />
+  </div>
+  <div class="feature__item">
+    <h3 class="section__title">Hi Block</h3>
+    <img style="max-width: 100%; height: 400px;" src="images/himag.JPG" />
+  </div>
+  <div class="feature__item">
+    <h3 class="section__title">3D Block</h3>
+    <img style="max-width: 100%; height: 400px;" src="images/lowmag3Dblock.JPG" />
+  </div>
+  <div class="feature__item">
+    <h3>Data</h3>
+    HEK cells processed for S3EM (Os, UA, LA). 96 serial sections cut with Diatome knives on a Leica ultramicrotome, collected on a silicon chip. Imaged on a Zeiss SEM with 8-8-70 nm (x-y-z) voxels. 
+  </div>
+  <div class="feature__item">
+    <h3>Interact</h3>
+    Select points on the PCA and click the Update Model button to see the corresponding mitochondria. PCs are generated from curvature, surface area, and volume parameters. Click Load Big Model button to load all mitos into a single scene (may take some time). 
+  </div>
+</div>
+
+<!-- ----------- -->
 
 
 <div>
-  
+  <button id = "btnSubmit2" class="updateModel2">Load Big Model</button>
 <div id="stl_cont2" style="width:100%;min-width:300px;height:800px;margin:0 auto;"></div>
     
 <script src="js/stl_viewer.min.js"></script>        
+
+<script>
+  $(document).ready(function() {
+    $("#btnSubmit2").click(function(){
+      var myobj2='all-mitos'
+      let fName2 = '../models/'+myobj2+'.stl';
+      stl_viewer2.remove_model(0);
+      stl_viewer2.add_model({id:0, filename:''+fName2+''});
+    }); 
+});
+
+</script>
 
 <script>
 var stl_viewer2=new StlViewer(
@@ -170,7 +213,7 @@ var stl_viewer2=new StlViewer(
       models: 
         [ {
             id:0, 
-            filename:"../models/all-mitos.stl"} 
+            filename:""} 
           ] }
     );
 
