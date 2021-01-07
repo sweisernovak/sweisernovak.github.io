@@ -165,16 +165,18 @@ var stl_viewer=new StlViewer(
     <img style="max-width: 100%; height: 400px;" src="images/midmag.JPG" />
   </div>
   <div class="feature__item">
-    <h3 class="section__title">Hi Block</h3>
+    <h3 class="section__title">Hi mag</h3>
     <img style="max-width: 100%; height: 400px;" src="images/himag.JPG" />
   </div>
   <div class="feature__item">
-    <h3 class="section__title">3D Block</h3>
+    <h3 class="section__title">3D block</h3>
     <img style="max-width: 100%; height: 400px;" src="images/lowmag3Dblock.JPG" />
   </div>
   <div class="feature__item">
     <h3>Data</h3>
-    HEK cells processed for S3EM (Os, UA, LA). 96 serial sections cut with Diatome knives on a Leica ultramicrotome, collected on a silicon chip. Imaged on a Zeiss SEM with 8-8-70 nm (x-y-z) voxels. 
+    <p>HEK cells processed for S3EM (Os, UA, LA). 96 serial sections cut with Diatome knives on a Leica ultramicrotome, collected on a silicon chip. Imaged on a Zeiss SEM with 8-8-70 nm (x-y-z) voxels. </p>
+    <p>Ground truth segmented in VAST Lite. Deep learning and inference conducted using Gunpowder +. Mesh generation: ___. Mesh cleanup and export using Blender+BlendGAMer. </p> 
+    <p>Geometry paramaterization in Python using numpy-stl library. PCA computation using Python sklearn library. Interactive PCA visulization generated using Bokeh in Python to produce an browser-ready embedding. Added STL-Viewer library to HTML embedding, linking using the bokeh Div element class, targeted using JQuery, to collect selected object name and load it as input into STL-Viewer scene. </p>
   </div>
   <div class="feature__item">
     <h3>Interact</h3>
