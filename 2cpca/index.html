@@ -54,6 +54,55 @@
     
 <div class="wrapper center">
 
+
+<!-- ---------- -->
+<style>p {text-align:left;}</style>
+<div class="feature">        
+  <div class="feature__item">
+    <h3 class="section__title">Low mag</h3>
+    <img style="max-width: 100%; height: 400px;" src="images/lomag.JPG" />
+  </div>
+  <div class="feature__item">
+    <h3 class="section__title">Mid mag</h3>
+    <img style="max-width: 100%; height: 400px;" src="images/midmag.JPG" />
+  </div>
+  <div class="feature__item">
+    <h3 class="section__title">Hi mag</h3>
+    <img style="max-width: 100%; height: 400px;" src="images/himag.JPG" />
+  </div>
+  <div class="feature__item">
+    <h3 class="section__title">3D block</h3>
+    <img style="max-width: 100%; height: 400px;" src="images/lowmag3Dblock.JPG" />
+  </div>
+  <div class="feature__item">
+    <h3>Data</h3>
+    <p>HEK cells processed for S3EM (Os, UA, LA). 96 serial sections cut with Diatome knives on a Leica ultramicrotome, collected on a silicon chip. Imaged on a Zeiss SEM with 8-8-70 nm (x-y-z) voxels. </p>
+    <p>Ground truth segmented in VAST Lite. Deep learning and inference conducted using Gunpowder +. Mesh generation: ___. Mesh cleanup and export using Blender+BlendGAMer. Geometry paramaterization in Python using numpy-stl library. PCA was computed using Python sklearn library from curvature, surface area, and volume parameters.  </p>
+  </div>
+  <div class="feature__item">
+    <h3>Interact</h3>
+    <p>Interactive scatter plot of principal components is generated using Bokeh in Python to produce a browser-ready embedding. The STL-Viewer library is linked to the Bokeh HTML embedding, using the bokeh Div element class targeted from JQuery, to collect selected object name and load it as input into a STL-Viewer scene. 
+    </p>
+    <p>Bokeh has tools for Zooming (box zoom and scroll zoom) and Tap Selecting enabled. Play with the tools to the right of the plot. </p>
+    <p>
+    Tap Select a point on the PCA and click the Update Model button to see the corresponding mitochondrion. Explore the principal component axes: what best explains variance in these samples?</p>
+    <p>Click Load Big Model button to load all mitos into a single scene (may take some time). 
+    </p>
+  </div>
+  
+</div>
+<div class="feature">
+  
+    
+  <div style="height:50px; width:100%;  align-content: center;"></div><div style="height:1px; min-width:200px; width:100%; background-color: gray;"></div><div style="height:50px;"></div>
+  
+</div>
+
+
+<!-- ----------- -->
+
+
+
             <table>
               <tr>
                 <td>
@@ -145,46 +194,13 @@ var stl_viewer=new StlViewer(
 
 </td></tr></table>
 
-<!-- ---------- -->
-<style>p {text-align:left;}</style>
-<div class="feature">        
-  <div class="feature__item">
-    <h3 class="section__title">Low mag</h3>
-    <img style="max-width: 100%; height: 400px;" src="images/lomag.JPG" />
-  </div>
-  <div class="feature__item">
-    <h3 class="section__title">Mid mag</h3>
-    <img style="max-width: 100%; height: 400px;" src="images/midmag.JPG" />
-  </div>
-  <div class="feature__item">
-    <h3 class="section__title">Hi mag</h3>
-    <img style="max-width: 100%; height: 400px;" src="images/himag.JPG" />
-  </div>
-  <div class="feature__item">
-    <h3 class="section__title">3D block</h3>
-    <img style="max-width: 100%; height: 400px;" src="images/lowmag3Dblock.JPG" />
-  </div>
-  <div class="feature__item">
-    <h3>Data</h3>
-    <p>HEK cells processed for S3EM (Os, UA, LA). 96 serial sections cut with Diatome knives on a Leica ultramicrotome, collected on a silicon chip. Imaged on a Zeiss SEM with 8-8-70 nm (x-y-z) voxels. </p>
-    <p>Ground truth segmented in VAST Lite. Deep learning and inference conducted using Gunpowder +. Mesh generation: ___. Mesh cleanup and export using Blender+BlendGAMer. Geometry paramaterization in Python using numpy-stl library. PCA computation using Python sklearn library.  </p>
-  </div>
-  <div class="feature__item">
-    <h3>Interact</h3>
-    <p>Interactive PCA visulization generated using Bokeh in Python to produce an browser-ready embedding. Added STL-Viewer library to HTML embedding, linking using the bokeh Div element class, targeted using JQuery, to collect selected object name and load it as input into STL-Viewer scene.
-    </p>
-    <p>
-    Select points on the PCA and click the Update Model button to see the corresponding mitochondria. PCs are generated from curvature, surface area, and volume parameters. Click Load Big Model button to load all mitos into a single scene (may take some time). 
-    </p>
-  </div>
-</div>
-
-<!-- ----------- -->
 
 
 <div>
 
 <!-- -->
+
+<hr />
 
 <style>
   
