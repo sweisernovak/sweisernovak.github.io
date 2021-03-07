@@ -7,6 +7,8 @@ tags:
   - publication
   - coastal
   - scienceandsociety
+  - science
+  - culture
 item_sort: 16
 ---
 Launched in April 2015, Hakai Magazine explores science, society, and the environment from a coastal perspective.

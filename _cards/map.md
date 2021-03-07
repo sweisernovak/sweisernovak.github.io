@@ -6,6 +6,7 @@ header: Where do you live?
 tags:
   - maps
   - firstnations
+  - culture
 item_sort: 2
 ---
 Native Land Digital strives to create and foster conversations about the history of colonialism, Indigenous ways of knowing, and settler-Indigenous relations, through educational resources such as their map and Territory Acknowledgement Guide. 
