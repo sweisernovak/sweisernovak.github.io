@@ -158,6 +158,9 @@ ul.header-icons li a img:hover {
   max-width: calc(33% - 20px);
   margin: 0 20px 0 0;
   vertical-align: top;
+  a {
+    text-decoration: none;
+  }
 }
 
 .feature__item .section__title {
@@ -168,9 +171,6 @@ ul.header-icons li a img:hover {
   margin-top: 0.5rem;
 }
 
-.feature__item a {
-  text-decoration: none;
-}
 
 .hero {
   width: 940px;
