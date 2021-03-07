@@ -162,6 +162,10 @@ ul.header-icons li a img:hover {
   a {
     text-decoration: none;
   }
+  img {
+    max-width: calc(33% - 20px);
+    min-width: 220px;
+  }
 }
 
 .feature__item .section__title {
