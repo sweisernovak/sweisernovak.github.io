@@ -146,12 +146,13 @@ ul.header-icons li a img:hover {
 .wrapper {
   margin: 0 auto;
   width: 70%;
+  align-items: center;
 }
 /* feature section */
 .feature {
   display: flex;
   flex-wrap: wrap;
-  max-width:860px;
+  align-items: center;
 }
 
 .feature__item {
