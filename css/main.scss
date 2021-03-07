@@ -142,40 +142,28 @@ ul.header-icons li a img:hover {
   opacity: 1;
 }
 
-.flex-container {
-  display: flex;
-}
-
-.flex-child {
-  flex: 1;
-}  
-
-.flex-child:first-child {
-  margin-right: 20px;
-} 
-
 .hero {
-  display: flex;
   width: 940px;
   min-height: 217px;
   margin: 0 auto 30px;
   padding-left: 10px;
   padding-right: 10px;
+  display: inline-block
   img .logo {
     width: 100px;
     height: 98px;
   }
   .hero-text {
-    flex: 1;
     margin-right: 0px;
     margin-left: 350px;
     padding: 22px 0;
     text-align: left;
     font-size: 4rem;
     font-weight: 300;
+    display: inline-block
     span {
       font-size: 3rem;
-      color: #7dc679;
+      color: #6b6b6b;
     }
     @media (max-width: 800px) {
       margin-left: 120px;
