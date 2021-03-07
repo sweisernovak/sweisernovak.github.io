@@ -142,6 +142,19 @@ ul.header-icons li a img:hover {
   opacity: 1;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
+
 .hero {
   width: 940px;
   min-height: 217px;
