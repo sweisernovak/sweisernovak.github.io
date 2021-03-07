@@ -13,7 +13,11 @@
     </div>
 
     <div class="card-body">
-      {{ card.content }}
+      {% if page.tagline %}
+      {{ page.tagline }}
+    {% else %}
+    
+    {% endif %}
     </div>
 
     <div class="card-footer">
