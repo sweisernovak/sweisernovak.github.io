@@ -163,7 +163,8 @@ ul.header-icons li a img:hover {
     text-decoration: none;
   }
   img {
-    height: 200px;    
+    max-width:100%;
+    max-height:100%;
   }
 }
 
