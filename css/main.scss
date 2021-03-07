@@ -141,24 +141,16 @@ ul.header-icons li a img {
 ul.header-icons li a img:hover {
   opacity: 1;
 }
-.flex-container { 
-  display:flex;
-  justify-content: center;
-  flex-flow: row wrap;
-    
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  }
-.flex-item {
-  text-align: left;
-    font-size: 4rem;
-    font-weight: 300;
-    span {
-      font-size: 3rem;
-      color: #666666;
-    }
+
+
+.flex-container {
+  display: flex;
 }
+.flex-container > div {
+  flex: 1; /*grow*/
+}
+
+
 .hero {
   width: 940px;
   min-height: 217px;
