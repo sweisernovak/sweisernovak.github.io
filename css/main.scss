@@ -144,6 +144,11 @@ ul.header-icons li a img:hover {
 .flex-container { 
   display:flex;
   justify-content: center;
+  flex-flow: row wrap;
+    
+  padding: 0;
+  margin: 0;
+  list-style: none;
   }
 .flex-item {
   text-align: left;
