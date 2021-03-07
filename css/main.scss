@@ -144,21 +144,24 @@ ul.header-icons li a img:hover {
 
 .hero {
   width: 940px;
-  min-height: 200px;
+  min-height: 217px;
   margin: 0 auto 30px;
   padding-left: 10px;
   padding-right: 10px;
-  
+  img .logo {
+    width: 100px;
+    height: 98px;
+  }
+  .hero-text {
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: 350px;
     padding: 22px 0;
-    text-align: center;
+    text-align: left;
     font-size: 4rem;
     font-weight: 300;
-}
     span {
       font-size: 3rem;
-      color: #7e7e7e;
+      color: #7dc679;
     }
     @media (max-width: 800px) {
       margin-left: 120px;
