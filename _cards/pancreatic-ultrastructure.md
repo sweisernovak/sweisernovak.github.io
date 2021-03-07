@@ -1,7 +1,7 @@
 ---
 layout: card
 name: pancreatic-ultrastructure.github.io
-image: panc.jpg
+image: pancreas.jpg
 image_href: http://pancreatic-ultrastructure.github.io
 header: pancreatic-ultrastructure.github.io
 tags:
