@@ -156,7 +156,7 @@ ul.header-icons li a img:hover {
 }
 
 .feature__item {
-  max-width: 300px;
+  max-width: calc(33% - 20px);
   margin: 0 20px 0 0;
   vertical-align: top;
 }
