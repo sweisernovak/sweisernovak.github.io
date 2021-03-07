@@ -141,8 +141,18 @@ ul.header-icons li a img {
 ul.header-icons li a img:hover {
   opacity: 1;
 }
-.float-left { 
-  float:left;
+.flex-container { 
+  display:flex;
+  justify-content: center;
+  }
+.flex-item {
+  text-align: left;
+    font-size: 4rem;
+    font-weight: 300;
+    span {
+      font-size: 3rem;
+      color: #666666;
+    }
 }
 .hero {
   width: 940px;
