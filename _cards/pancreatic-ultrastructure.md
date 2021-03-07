@@ -7,6 +7,6 @@ header: pancreatic-ultrastructure.github.io
 tags:
   - microscopy
   - em
-item_sort: 17
-tagline: Interactive datasets from samples of pancreas. 
+item_sort: 10
+tagline: Interactive images of ultrathing sections of pancreas captured using a scanning electron microscope. 
 ---
