@@ -20,27 +20,27 @@ layout: default
           </script>
 
 
-          <div class="wrapper center">
+<div class="wrapper center">
 
 
 <!-- ---------- -->
 <style>p {text-align:left;}</style>
 <div class="feature">        
   <div class="feature__item">
-    <h3 class="section__title">Low mag</h3>
-    <img style="max-width: 100%; height: 400px;" src="images/lomag.JPG" />
+    <h3>Low mag</h3>
+    <img src="images/lomag.JPG" />
   </div>
   <div class="feature__item">
-    <h3 class="section__title">Mid mag</h3>
-    <img style="max-width: 100%; height: 400px;" src="images/midmag.JPG" />
+    <h3>Mid mag</h3>
+    <img src="images/midmag.JPG" />
   </div>
   <div class="feature__item">
-    <h3 class="section__title">Hi mag</h3>
-    <img style="max-width: 100%; height: 400px;" src="images/himag.JPG" />
+    <h3>Hi mag</h3>
+    <img src="images/himag.JPG" />
   </div>
   <div class="feature__item">
-    <h3 class="section__title">3D block</h3>
-    <img style="max-width: 100%; height: 400px;" src="images/lowmag3Dblock.JPG" />
+    <h3>3D block</h3>
+    <img src="images/lowmag3Dblock.JPG" />
   </div>
   <div class="feature__item">
     <h3>Data</h3>
@@ -60,7 +60,7 @@ layout: default
   
 </div>
 <div class="feature">
-  
+
     
   <div style="height:50px; width:100%;  align-content: center;"></div><div style="height:1px; min-width:200px; width:100%; background-color: gray;"></div><div style="height:50px;"></div>
   
@@ -68,13 +68,10 @@ layout: default
 
 
 <!-- ----------- -->
+<div class="feature">
+  <div class="feature__item">
 
-
-
-            <table>
-              <tr>
-                <td>
-        
+      
             <!-- start Bokeh -->
 
             <div class="bk-root" id="e88989ad-5cd5-4bc1-8d78-95d3163d984d" data-root-id="1112"></div>
@@ -120,9 +117,9 @@ layout: default
               })();
             </script>
             <!-- end Bokeh -->
-</td>
-<td>
-
+            
+</div>
+<div class="feature__item">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="js/stl_viewer.min.js"></script>  
@@ -161,86 +158,9 @@ var stl_viewer=new StlViewer(
 
 </script>
 
-</td></tr></table>
-
-
-
-<div>
-
-<!-- -->
-
-<hr />
-
-<style>
-  
-  progress {display:block;margin:0 auto 10px auto; width:60%;}
-  
-</style>
-
-<script>
-  function load_prog(load_status, load_session)
-  {
-      var loaded=0;
-      var total=0;
-      
-      //go over all models that are/were loaded
-      Object.keys(load_status).forEach(function(model_id)
-      {
-          if (load_status[model_id].load_session==load_session) //need to make sure we're on the last loading session (not counting previous loaded models)
-          {
-              loaded+=load_status[model_id].loaded;
-              total+=load_status[model_id].total;
-              
-              //set the relevant model's progress bar
-              document.getElementById("pb"+model_id).value=load_status[model_id].loaded/load_status[model_id].total;
-          }
-      });
-      
-      //set total progress bar
-      document.getElementById("pbtotal").value=loaded/total;
-  }    
-</script>
-
-<!-- -->  
-
-
-<!-- Load the big model , too broken for real big time
-<button id="btnSubmit2" class="updateModel2">Load Big Model</button>
-<progress id="pb0" value="0" max="1"></progress>
-
-<div id="stl_cont2" style="width:100%;min-width:300px;height:800px;margin:0 auto;"></div> 
-   
-
-<script>
-var stl_viewer2=new StlViewer(
-    document.getElementById("stl_cont2"), 
-     { 
-        auto_rotate:false,
-        loading_progress_callback:load_prog,
-        bgcolor:"#20FAAC",
-        allow_drag_and_drop:true,
-        models: 
-          [ {
-              id:0, 
-              filename:""} 
-            ] }
-      );
-  
-</script>
-
-<script>
-$(document).ready(function() {
-      $("#btnSubmit2").click(function(){
-        var myobj2='all-mitos';
-        let fName2 = '../models/'+myobj2+'.stl';
-        stl_viewer2.remove_model(0)
-        stl_viewer2.add_model({id:0, filename:''+fName2+''});
-      }); 
-  });
-  
-</script>
--->
 </div>
+</div>
+
 
 
 <div>
