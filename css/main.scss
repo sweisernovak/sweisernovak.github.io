@@ -143,11 +143,9 @@ ul.header-icons li a img:hover {
 }
 
 
-.flex-container {
-  display: flex;
-}
-.flex-container > div {
-  flex: 1; /*grow*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* fraction*/
 }
 
 
@@ -157,7 +155,7 @@ ul.header-icons li a img:hover {
   margin: 0 auto 30px;
   padding-left: 10px;
   padding-right: 10px;
-  display: inline-block;
+
   img .logo {
     width: 100px;
     height: 98px;
