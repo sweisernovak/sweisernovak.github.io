@@ -146,7 +146,7 @@ ul.header-icons li a img:hover {
 .wrapper {
   margin: 0 auto;
   width: 70%;
-  align-items: center;
+  align-content: center;
 }
 /* feature section */
 .feature {
@@ -158,6 +158,7 @@ ul.header-icons li a img:hover {
 .feature__item {
   max-width: 230px;
   margin: 0 20px 0 0;
+  vertical-align: top;
 }
 
 .feature__item .section__title {
