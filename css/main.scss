@@ -142,7 +142,11 @@ ul.header-icons li a img:hover {
   opacity: 1;
 }
 
-
+/* layout */
+.wrapper {
+  margin: 0 auto;
+  width: 70%;
+}
 /* feature section */
 .feature {
   display: flex;
