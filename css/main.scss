@@ -148,7 +148,6 @@ ul.header-icons li a img:hover {
 
 .flex-child {
   flex: 1;
-  border: 2px solid yellow;
 }  
 
 .flex-child:first-child {
@@ -156,6 +155,7 @@ ul.header-icons li a img:hover {
 } 
 
 .hero {
+  display: flex;
   width: 940px;
   min-height: 217px;
   margin: 0 auto 30px;
@@ -166,6 +166,7 @@ ul.header-icons li a img:hover {
     height: 98px;
   }
   .hero-text {
+    flex: 1;
     margin-right: 0px;
     margin-left: 350px;
     padding: 22px 0;
