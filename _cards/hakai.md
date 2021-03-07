@@ -1,6 +1,6 @@
 ---
 name: Hakai Magazine
-image: ecomm.jpg
+image: hakai.jpg
 image_href: https://www.hakaimagazine.com/
 header: Hakai Magazine
 tags:
