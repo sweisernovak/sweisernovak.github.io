@@ -1,3 +1,7 @@
+### Modified from the theme found here: 
+https://github.com/chadokruse/chadokruse.github.com 
+Thanks Chad for this most excellent Jekyll-Isotope template.
+
 ## A Jekyll-Powered Portfolio Site  
 This is the source code used to power my personal site ([demo](http://www.chadkruse.com)). It takes advantage of Jekyll's `_data` and `category` features and has two primary components:  
 
