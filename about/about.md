@@ -32,7 +32,7 @@ logo: logo.gif
             </div>
             <div class="feature__item">
             <a href="https://www.abebooks.co.uk/book-search/title/the-book-of-fantasy/author/jorge-luis-borges/">
-            <img style="max-height:200px; max-width:200px;" 3src="{{ site.baseurl }}/images/borgesbookoffantasy.jpg" />
+            <!-- <img style="max-height:200px; max-width:200px;" 3src="{{ site.baseurl }}/images/borgesbookoffantasy.jpg" /> -->
             <h3 class="section__title">Book of Fantasy <span style="font-weight: lighter; color:#666666;">Jorge Luis Borges, Silvina Ocampo, and Adolfo Bioy Casares</span></h3>
             <p>Spectacular introduction from Ursula Le Guine on the usage history of fantasy. Is Enoch Soames fantastic? Left hand off now... </p>
             </a>
