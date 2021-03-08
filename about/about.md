@@ -11,7 +11,8 @@ logo: logo.gif
   <div class="wrapper" style="align-content: center;">
       <div class="feature">
       <div class="feature__item">
-      <p>I am living in San Diego, working at the Salk Institute, surfing north county, playing Jobim on guitar and Donny Hathaway on keyboards.</p>
+      <h2>One-liner</h2>
+      <p>I am living in San Diego, working with microscopes at the Salk Institute, surfing north county, playing Jobim on guitar and Donny Hathaway on keyboards.</p>
       </div>
       <div class="feature__item">
       <h2>Music</h2>
