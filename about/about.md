@@ -19,6 +19,10 @@ logo: logo.gif
       <h2>Music</h2>
       <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1Eps5EdVGomHBj" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
+      <div class="feature__item">
+        <a class="twitter-timeline" href="https://twitter.com/sammy_wn?ref_src=twsrc%5Etfw">Tweets by sammy_wn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+      </div>
+    </div>
     </div>
     <div class="feature">
       <div class="feature__item">
@@ -27,7 +31,7 @@ logo: logo.gif
         <div class="feature">        
             <div class="feature__item">
             <h3 class="section__title">Book of Sand <span style="font-weight: lighter; color:#666666;">Jorge Luis Borges</span></h3>
-            <p>How many true metaphors do we need to express ourselves - the fire of battle, the river of time, women as flowers, life and dreams, death and sleep... essential metaphors. If a man can dream another man into being, then are we all conjurations? Etc. </p>
+            <p>How many true metaphors do we need to express ourselves - the fire of battle, the river of time, the dream of life, the sleep of death... essential metaphors. If a man can dream another man into being, then are we all conjurations? Etc. </p>
             </div>
             <div class="feature__item">
             <a href="https://www.abebooks.co.uk/book-search/title/the-book-of-fantasy/author/jorge-luis-borges/">
@@ -37,7 +41,6 @@ logo: logo.gif
             </a>
             </div>
         </div>
-      </div>
       </div>
   </div>
   <div style="height:100px;"></div>
