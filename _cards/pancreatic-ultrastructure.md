@@ -8,6 +8,7 @@ tags:
   - microscopy
   - em
   - science
+  - electron
 item_sort: 9
 ---
 Interactive images of ultrathing sections of pancreas captured using a scanning electron microscope. 

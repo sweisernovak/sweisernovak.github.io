@@ -9,4 +9,4 @@ tags:
   - culture
 item_sort: 10
 ---
-Compelling resource collating the ancient and contemporary knowledge derived from traditions of shamanism found throughout the world. 
+Compelling resource collating the ancient and contemporary knowledge derived from traditions of shamanism found throughout the world. 10/10
