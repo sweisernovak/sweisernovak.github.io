@@ -7,18 +7,20 @@ logo: logo.gif
 
 {% include navheader.html %}
 
-
+<div style="width:100%; height:20px;"></div>
   <div class="wrapper" style="align-content: center;">
-      <div class="feature">
+    <div class="feature">
       <div class="feature__item">
-      <img src="/images/pipes.jpg" width="100%" /></a>
+      <img src="/images/pipes.jpg" width="100%" />
       <h2>One-liner</h2>
       <p>I am living in San Diego, working with microscopes at the Salk Institute, surfing north county, playing Jobim on guitar and Donny Hathaway on keyboards.</p>
       </div>
       <div class="feature__item">
       <h2>Music</h2>
-      <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1EM4cYFHtXbBdO" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1Eps5EdVGomHBj" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
+    </div>
+    <div class="feature">
       <div class="feature__item">
         <h2>Books</h2>
         <h3>2021</h3>
