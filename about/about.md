@@ -36,7 +36,7 @@ logo: logo.gif
             </div>
       </div>
       <div class="feature__item">
-        <a class="twitter-timeline" href="https://twitter.com/sammy_wn?ref_src=twsrc%5Etfw">Tweets by sammy_wn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        <a class="twitter-timeline" href="https://twitter.com/sammy_wn?ref_src=twsrc%5Etfw"><h2>Twitter</h2></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
       </div>
       
 </div>
