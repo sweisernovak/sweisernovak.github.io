@@ -16,14 +16,14 @@ logo: logo.gif
       <h3>2021</h3>
       <div class="feature">        
         <div class="feature__item">
-          <h3 class="section__title">Book of Sand</h3>
-          <p>Borges</p>
+          <h3 class="section__title">Book of Sand <span style=""font-weight: lighter; color:#666666;">Jorge Luis Borges</span></h3>
+          <p>How many true metaphors do we need to express ourselves - the fire of battle, the river of time, women as flowers, life and dreams, death and sleep... essential metaphors. If a man can dream another man into being, then are we all conjurations? Etc. </p>
         </div>
         <div class="feature__item">
-          <img src="{{ base.url }}/images/borgesbookoffantasy.jpg" />
-          <h3 class="section__title">Book of Fantasy</h3>
-          <p>Borges et al. Spectacular introduction from Ursula Le Guine on the usage history of fantasy. Is Enoch Soames fantastic? Left hand off now... </p>
+          <img src="{{ site.baseurl }}/images/borgesbookoffantasy.jpg" />
+          <h3 class="section__title">Book of Fantasy <span style=""font-weight: lighter; color:#666666;">Jorge Luis Borges, Silvina Ocampo, and Adolfo Bioy Casares</span></h3>
+          <p>Spectacular introduction from Ursula Le Guine on the usage history of fantasy. Is Enoch Soames fantastic? Left hand off now... </p>
         </div>
       </div>
-      </div>
-      <div style="height:100px;"></div>
+  </div>
+  <div style="height:100px;"></div>
