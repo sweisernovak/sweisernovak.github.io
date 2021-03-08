@@ -20,9 +20,6 @@ logo: logo.gif
       <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1Eps5EdVGomHBj" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
       <div class="feature__item">
-        <a class="twitter-timeline" href="https://twitter.com/sammy_wn?ref_src=twsrc%5Etfw">Tweets by sammy_wn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-      </div>
-      <div class="feature__item">
       <h2>Books</h2>
       <h3>2021</h3>
       <div class="feature">
@@ -38,5 +35,9 @@ logo: logo.gif
             </a>
             </div>
       </div>
+      <div class="feature__item">
+        <a class="twitter-timeline" href="https://twitter.com/sammy_wn?ref_src=twsrc%5Etfw">Tweets by sammy_wn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+      </div>
+      
 </div>
 <div style="height:100px;"></div>
