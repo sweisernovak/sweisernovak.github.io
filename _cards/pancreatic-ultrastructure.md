@@ -1,9 +1,9 @@
 ---
 layout: card
-name: pancreatic-ultrastructure.github.io
+name: Pancreatic Ultrastructure
 image: pancreas.jpg
 image_href: http://pancreatic-ultrastructure.github.io
-header: pancreatic-ultrastructure.github.io
+header: Pancreatic Ultrastructure
 tags:
   - microscopy
   - em
