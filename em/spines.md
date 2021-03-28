@@ -13,6 +13,7 @@ logo: logo.gif
     <source src="{{ site.baseurl }}/images/synapses.mp4" type="video/mp4">
 </video>
 <h3>Mushrooms on a log, leaves on a branch</h3>
-Perhaps leaves are a better metaphor because, like leaves, spines seek signal. Only, dendritic spines seek glutamate, the excitatory neurotransmitter, int their local environments, as leaves seek a sunny spot, seemingly stretching out from the tree branch. 
+<p>Like leaves on a branch, spines seek signal. Only, dendritic spines seek glutamate, the excitatory neurotransmitter, in their local environments, as leaves seek sunlight in their stretching and remodelling from their anochor on the tree branch. </p>
+
  <p><!--Testing the splash zone. --></p>
 </div>
