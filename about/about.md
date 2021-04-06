@@ -18,14 +18,10 @@ logo: logo.gif
       <p>I stand upon a land that carries the footsteps of millennia of Kumeyaay people. They are a people whose traditional lifeways intertwine with a worldview of earth and sky in a community of living beings. This land is part of a relationship that has nourished, healed, protected and embraced the Kumeyaay people to the present day. It is part of a world view founded in the harmony of the cycles of the sky and balance in the forces of life. For the Kumeyaay, red and black represent the balance of those forces that provide for harmony within our bodies as well as the world around us. As a resident and student, I acknowledge this legacy from the Kumeyaay. We promote this balance in life as we pursue our goals of knowledge and understanding. We find inspiration in the Kumeyaay spirit to open our minds and hearts. </p>
       <p>Adapted from <a href="https://sacd.sdsu.edu/diversity-resources/land-acknowledgment">SDSU Land Acknowledgement by Mike Connolly Miskwish (Kumeyaay)</a>.</p> 
       </div>
-      </div>
-      <div class="feature">
       <div class="feature__item">
       <h2>Music</h2>
       <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1Eps5EdVGomHBj" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
-      </div>
-      <div class="feature">
       <div class="feature__item">
       <h2>Books</h2>
       <h3>2021</h3>
