@@ -22,7 +22,7 @@ logo: logo.gif
       <h2>Music</h2>
       <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1Eps5EdVGomHBj" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
-      <div class="feature__item">
+      </div>
       <h2>Books</h2>
       <h3>2021</h3>
       <div class="feature">
@@ -38,7 +38,7 @@ logo: logo.gif
             </a>
             </div>
       </div>
-      </div>
+      
   
         <a class="twitter-timeline" href="https://twitter.com/sammy_wn?ref_src=twsrc%5Etfw"><h2>Twitter</h2></a> 
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
