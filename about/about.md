@@ -38,11 +38,8 @@ logo: logo.gif
             </a>
             </div>
       </div>
-      
-  
-        <a class="twitter-timeline" href="https://twitter.com/sammy_wn?ref_src=twsrc%5Etfw"><h2>Twitter</h2></a> 
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-      
+      <div style="height:20px;"></div>
+      <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/sammy_  wn?ref_src=twsrc%5Etfw">Tweets by sammywn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
       
 </div>
 <div style="height:100px;"></div>
